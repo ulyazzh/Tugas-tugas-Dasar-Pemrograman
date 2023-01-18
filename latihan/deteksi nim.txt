@@ -1,0 +1,22 @@
+//judul: deteksi nim
+//kamus: 
+	a <-- string
+
+//diskripsi:
+	input nim
+
+	if (a[0] == 'A' && a[1]=='1' && a[2]=='1')
+		output ( "teknik informatika S1")
+    
+    	else if (a[0] == 'A' && a[1]=='1' && a[2]=='2')
+    		output ("sistem informasi S1")
+    
+    	else if (a[0] == 'A' && a[1]=='1' && a[2]=='4')
+   	ouutput("DKV S1")
+    
+    	else if(a[0] == 'A' && a[1] == '1' && a[2]=='5')
+    	output ("ilmu komunikasi S1")
+
+    	else
+   	output ("prodi tidak terdeteksi")
+    

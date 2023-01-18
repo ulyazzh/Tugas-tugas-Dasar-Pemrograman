@@ -1,0 +1,7 @@
+//judul: mencari garis miring segitiga siku siku
+//kamus: 
+	a, b, c <-- integer
+//diskripsi:
+	input panjang sisi a dan b		//c adalah garis miring
+	c = sqrt ((a*a)+(b*b));
+	output c

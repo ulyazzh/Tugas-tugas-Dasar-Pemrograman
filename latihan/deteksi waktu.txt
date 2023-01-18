@@ -1,0 +1,23 @@
+//judul: menghitung durasi waktu
+//kamus: 
+	jamAwal, menitAwal, detikAkhir <-- integer
+	jamAkhir, menitAkhir, detikAkhir <-- integer
+
+//diskripsi:
+	input jamAwal, menitAwal, detikAkhir	
+	input jamAkhir, menitAkhir, detikAkhir
+
+	if (jamAkhir > jamAwal)
+		 output durasi = jamAkhir - jamAwal
+	else
+		 output = 12 + jamAkhir - jamAwal
+
+	if (menitAkhir > menitAwal)
+		 output durasi = menitAkhir - menitAwal
+	else
+		 output = 60 + menitAkhir - menitAwal
+
+	if (detikAkhir > detikAwal)
+		 output durasi = detikAkhir - detikAwal
+	else
+		 output = 3600  + detikAkhir - detikAwal
