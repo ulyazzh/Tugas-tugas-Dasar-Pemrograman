@@ -1,0 +1,31 @@
+//judul: looping bintang segitiga siku-siku
+#include <iostream>
+using namespace std;
+
+//kamus:
+int tinggi, i, j;
+
+//deskripsi
+int main()
+{
+    cout << "Program C++ Segitiga Bintang" << endl;
+    cout << "============================" << endl;
+    cout << endl;
+
+    cout << "masukkan tinggi segitiga: ";
+    cin >> tinggi;
+    cout << endl;
+
+    i=1;
+    while(i <= tinggi) {
+        j=1;
+        while(j<=i) {
+            cout << " *";
+            j++;
+        }
+    i++;
+    cout << endl;
+  }
+
+  return 0;
+}
