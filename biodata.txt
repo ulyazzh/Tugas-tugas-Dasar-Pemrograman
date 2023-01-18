@@ -1,0 +1,17 @@
+judul:
+	menampilkan	: biodata mahasiswa
+	tanggal		: 18 september 2022
+	oleh		: uly atmi azizah
+
+kamus:
+
+deskripsi:
+	nama
+	nim
+	jurusan
+	fakultas
+	agama
+	alamat asal
+	alamat semarang
+	nomor hp
+	email

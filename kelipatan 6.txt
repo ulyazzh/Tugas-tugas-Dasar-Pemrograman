@@ -1,0 +1,17 @@
+//judul: program menghitung angka 6
+//oleh: Uly Atmi Azizah
+//10 oktober 2022
+
+//kamus:
+a <---- integer
+total <----- integer
+
+// diskripsi:
+output "program menghitung kelipatan angka 6"
+
+while (a <= 100) do
+	output "a"
+	a = a+6
+	total = total + a
+
+output "total kelipatan adalah = " ---> total

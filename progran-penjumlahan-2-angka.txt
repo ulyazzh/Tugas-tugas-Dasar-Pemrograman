@@ -1,0 +1,15 @@
+judul:		
+	menampilkan	: penjumlahan 2 angka 
+	tanggal		: 17 september 2022
+	oleh		: uly atmi azizah
+
+
+kamus:	
+	x, y, penjumlahan
+
+
+deskripsi: 
+	masukkan nilai x
+	masukkan nilai y
+	hasil = x + y
+	tampilkan hasil

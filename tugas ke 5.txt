@@ -1,0 +1,36 @@
+judul:
+	input dan output jenis kelamin (tugas ke 5)
+	//uly Atmi Azizah
+	//22 september 2022
+	//di kos
+	
+
+kamus:
+	nama <-- string
+	jenis kelamin <-- string
+	umur <-- integer
+	jurusan <-- string
+	fakultas <-- string
+
+deskripsi:
+	output nama, input nama
+	output jenis kelamin [p/l], input [p/l]
+	output umur, input umur
+	output jurusan, input jurusan
+	output fakultas, input fakultas
+	
+	=================
+	
+	if (jenis kelamin = P) then 
+	{
+	output "anda adalah seorang perempuan"
+	}
+	
+	else
+	{
+	output "anda adalah seorang laki-laki"
+	}
+
+	=================
+
+	tampilkan hasil akhir program

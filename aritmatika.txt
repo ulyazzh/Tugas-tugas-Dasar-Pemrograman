@@ -1,0 +1,69 @@
+judul:
+	Program Aritmatika
+	Uly atmi Azizah
+	24 September 2022
+	di Kost
+
+kamus:
+	a <-- integer
+	b <-- integer
+	c <-- integer
+	d <-- integer
+	e <-- integer
+	hasil <-- integer
+	
+deskripsi:
+	
+	# OPERASI PERKALIAN #
+	output "operasi perkalian"
+	output "berapa kali masuk lab dalam setiap satu minggu?"
+	input a
+	hasil = a x 4
+	output "Dalam 1 bulan, anda memasuki lab sebanyak" <hasil> "kali"
+
+
+
+
+	# OPERASI PEMBAGIAN #
+	output "operasi perkalian"
+	output "Berapa jatah bulanan anda selama ngekos?"
+	input a
+	hasil = a/30
+	output "Jumlah uang yang harusnya anda keluarkan dalam sehari maksimal" <hasil>
+
+
+
+
+	# OPERASI PENGURANGAN #
+	output "operasi pengurangan"
+	output "berapa jumlah uang yang anda punya?"
+	input a
+	ouput "berapa harga buku yang anda beli?"
+	input b
+	hasil = a - b
+		if (hasil > -1) then
+	output "Sisa uang anda adalah" <hasil>
+		else
+	output "Uang anda kurang " <hasil> "Itu berarti anda berhutang kepada pemilik toko. Segeralah membayar hutang anda!"
+
+
+
+
+	#OPERASI PENJUMLAHAN#
+    	output "OPERASI PENJUMLAHAN"
+   	output "Jumlah Progdi Fakultas Ilmu Komputer:"
+    	input a
+   	ouput "Jumlah Progdi Fakultas Ekonomi dan Bisnis:"
+    	input b
+    	output"Jumlah Progdi Fakultas Ilmu Budaya:"
+    	input c
+    	output "Jumlah Progdi Fakultas Kesehatan:"
+    	input d
+    	output "Jumlah Progdi Fakultas Teknik: "
+    	input e
+    	hasil = a + b + c + d + e
+    	output "Jumlah keseluruhan Progdi di Universitas Dian Nuswantoro adalah " <hasil>
+    		if (hasil%2 == 0) then
+        output <hasil> "adalah bilangan genap";
+    		else
+        output <hasil> "adalah bilangan ganjil"
