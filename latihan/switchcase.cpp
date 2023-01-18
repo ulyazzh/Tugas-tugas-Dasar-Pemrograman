@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int makan;
+
+    cout << "Pilih salah satu opsi dibawah ini" << endl;
+
+    cout << "1. Mie Ayam\n2. Ayam geprex\n3. Sate ayang" << endl;
+    cout << "Makanan nomor berapa yang ingin anda makan? ";
+    cin >> makan;
+    cout << "__________________________" << endl;
+
+    switch (makan) {
+    case 1:
+        cout << "Saya pesan Mie Ayam saja" << endl ;
+        cout << "__________________________" << endl;
+        break;
+    case 2:
+        cout << "Saya pesan Ayam Geprex saja" << endl;
+        cout << "__________________________" << endl;
+        break;
+    case 3:
+        cout << "Saya pesan Sate ayang saja" << endl;
+        cout << "__________________________" << endl;
+        break;
+
+    default:
+        cout << "Ga mau makan" << endl;
+        cout << "____________________" << endl;
+    }
+}
