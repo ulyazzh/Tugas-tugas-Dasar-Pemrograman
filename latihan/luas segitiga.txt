@@ -1,0 +1,15 @@
+judul: 
+	menghitung luas segitiga
+
+kamus: 
+	alas, tinggi, luas	<--	integer
+
+diskripsi:
+	output "Alas:"
+	input alas
+	output "Tinggi:"
+	input tinggi
+
+	luas <-- (alas*tinggi)/2
+	output "Hasil: " luas
+	
